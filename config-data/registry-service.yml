@@ -1,7 +1,7 @@
 server: 
   port: 8085
     #wait time for subsequent sync"
-  maxThreadsForPeerReplication: 0
+ 
 
 eureka:
   instance:
@@ -11,3 +11,6 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:${server.port}/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+    maxThreadsForPeerReplication: 0
