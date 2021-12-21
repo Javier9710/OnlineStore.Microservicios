@@ -13,4 +13,3 @@ eureka:
       defaultZone: http://localhost:${server.port}/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 0
-    maxThreadsForPeerReplication: 0
