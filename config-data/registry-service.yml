@@ -1,6 +1,7 @@
 server: 
   port: 8085
     #wait time for subsequent sync"
+  maxThreadsForPeerReplication: 0
 
 eureka:
   instance:
