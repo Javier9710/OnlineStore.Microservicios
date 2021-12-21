@@ -1,6 +1,6 @@
 server: 
-  port: 8761
-  waitTimeInMsWhenSyncEmpty: 0    #wait time for subsequent sync"
+  port: 8085
+    #wait time for subsequent sync"
 
 eureka:
   instance:
@@ -9,4 +9,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://localhost:8085/eureka
