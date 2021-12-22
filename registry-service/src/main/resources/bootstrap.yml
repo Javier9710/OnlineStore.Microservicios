@@ -1,8 +1,9 @@
 spring:
   application:
-    name: registry-sevice
+    name: registry-service
   cloud:
     config:
-      url: http://localost:8084
+      uri: http://localhost:8084
       username: root
       password: s3cr3t
+
